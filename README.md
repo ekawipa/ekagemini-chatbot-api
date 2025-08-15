@@ -57,19 +57,18 @@ gemini-chatbot/
 
 4. **Jalankan server**
    ```bash
-   node index.js
+   node --watch index.js
    ```
    Server akan berjalan di: `http://localhost:3000`
 
 ---
 
-## 🖥 Kode Lengkap (`server.js`)
-
+## 🖥 Kode Lengkap (`index.js`) // file ini berbeda dengan yang ada di dalam repo (pakai yang di repo hehe)
 ```javascript
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenerativeAI } from '@google/genai';
 
 dotenv.config();
 const app = express();
@@ -119,7 +118,7 @@ async function sendMessage() {
 ```mermaid
 flowchart TD
     A[User / Client] -->|POST /chat| B[Express.js Backend]
-    B -->|Proses Pesan| C[Gemini 1.5 Flash API]
+    B -->|Proses Pesan| C[Gemini 2.5 Flash API]
     C -->|Balasan AI| B
     B -->|JSON Response| A
 ```
