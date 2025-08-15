@@ -5,7 +5,7 @@
 ![CORS](https://img.shields.io/badge/CORS-enabled-orange)
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
-> 🚀 **Gemini Chatbot** adalah aplikasi chatbot sederhana dan cepat menggunakan **Gemini 1.5 Flash API** dengan backend **Express.js**  frontend **Vanila.JS** dan dukungan **CORS** untuk akses lintas domain.  
+> 🚀 **Gemini Chatbot** adalah aplikasi chatbot sederhana dan cepat menggunakan **Gemini 2.5 Flash API** dengan backend **Express.js**  frontend **Vanila.JS** dan dukungan **CORS** untuk akses lintas domain.  
 > Cocok untuk integrasi ke aplikasi web, mobile, atau sistem internal Anda.
 
 ---
